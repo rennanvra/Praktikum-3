@@ -422,7 +422,7 @@ return 0;
 Program di atas meminta pengguna untuk memasukkan jumlah karakter dan karakter-karakternya. Menggunakan algoritma Bubble Sort, program mengurutkan array karakter tersebut baik secara ascending maupun descending. Setelah diurutkan, program akan mencetak karakter setelah dan sebelum diurutkan baik secara ascending atau descending.
 
 #### Analisis Kompleksitas Waktu
-- Best Case : **O(n^2)**, karena walaupun pada best case (array sudah terurut), algoritma akan menjalankan loop luar sebanyak n-1 kali, meskipun tidak ada pertukaran yang terjadi di dalam loop dalam. 
+- Best Case : **O(n^2)**, pada kasus di atas karena walaupun pada best case (array sudah terurut), algoritma akan menjalankan loop luar sebanyak n-1 kali, meskipun tidak ada pertukaran yang terjadi di dalam loop dalam. 
 - Worst and Average Case: **O(n^2),** n adalah jumlah elemen dalam array. Hal ini disebabkan oleh adanya dua loop bersarang. Loop luar akan berjalan sebanyak n-1 kali, di mana n adalah jumlah elemen dalam array. Sedangkan loop dalam akan berjalan juga sebanyak n-1 kali pada iterasi pertama, kemudian n-2 kali pada iterasi kedua, dan seterusnya hingga hanya satu kali pada iterasi terakhir. 
 #### Analisis Kompleksitas Ruang
 - **O(1)**, konstan. Karena Bubble sort tidak memerlukan tambahan memori karena adanya penambahan ukuran input (n), hanya menggunakan ruang konstan tambahan yang tidak tergantung pada ukuran input.
